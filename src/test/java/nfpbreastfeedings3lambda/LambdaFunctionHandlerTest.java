@@ -1,4 +1,4 @@
-package com.amazonaws.lambda.demo;
+package nfpbreastfeedings3lambda;
 
 import static org.mockito.Mockito.when;
 
@@ -19,6 +19,8 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
+
+import nfbbreastfeedings3lambda.LambdaFunctionHandler;
 
 /**
  * A simple test harness for locally invoking your Lambda function handler.

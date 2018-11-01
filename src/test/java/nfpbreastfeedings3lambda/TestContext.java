@@ -1,4 +1,4 @@
-package com.amazonaws.lambda.demo;
+package nfpbreastfeedings3lambda;
 
 import com.amazonaws.services.lambda.runtime.ClientContext;
 import com.amazonaws.services.lambda.runtime.CognitoIdentity;

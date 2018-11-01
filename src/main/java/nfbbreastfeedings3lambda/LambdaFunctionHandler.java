@@ -1,4 +1,4 @@
-package com.amazonaws.lambda.demo;
+package nfbbreastfeedings3lambda;
 import NFPBreastFeeding.Surveys.*;
 
 
@@ -24,7 +24,7 @@ public class LambdaFunctionHandler implements RequestHandler<S3Event, String> {
     public LambdaFunctionHandler() {}
 
     // Test purpose only.
-    LambdaFunctionHandler(AmazonS3 s3) {
+    public LambdaFunctionHandler(AmazonS3 s3) {
         this.s3 = s3;
     }
 
